@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Pro:wght@200&family=Roboto+Mono:wght@100&family=Vina+Sans&display=swap');
+
+.header {
+    height:50px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    background-color: black;
+
+   
+}
+.header_left{
+    flex: 0.2;
+    padding-left:5px;
+    width: 1000px;
+  
+}  
+.header_left  h1
+{
+
+    font-size:25px;
+    font-family: 'Alata', sans-serif;
+    letter-spacing:1px;
+}
+.header_left  h1 span
+{
+    color:#c46210;
+}
+

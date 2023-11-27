@@ -1,0 +1,74 @@
+body {
+    background-color: #100c08;
+}
+
+.contact_container {
+    background-image: url(pexels-malte-luk-2244746.jpg);
+    height: 105vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    overflow-y: hidden;
+
+
+
+}
+
+.contact_container_box {
+    margin-top: 90px;
+    position: absolute;
+    padding-left: 200PX;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 960px;
+    height: 650px;
+}
+
+.contact_container_box .contact_box {
+
+    font-family: 'Crimson Pro', serif;
+    background-color: #ffffffa0;
+    padding: 10%;
+    margin-bottom: 70px;
+    border-radius: 4px;
+    margin-left: 90px;
+    box-shadow: 10px 6px 105px -5px rgba(176, 165, 165, 0.75);
+    -webkit-box-shadow: 10px 6px 105px -5px rgba(176, 165, 165, 0.75);
+    -moz-box-shadow: 10px 6px 105px -5px rgba(176, 165, 165, 0.75);
+
+}
+
+.contact_container_box .contact_box>h1 {
+    font-size: 43px;
+    width: 450px;
+    color: #100c08;
+    font-family: 'Crimson Pro', serif;
+}
+
+
+.contact_container_box .contact_box>p {
+    position: absolute;
+    margin-top: 25px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #100c08;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.contact_container_box .contact_box>i {
+    font-size: 154px;
+
+    margin-top: -2%;
+    margin-left: 14%;
+    color: blue;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin-top: 18%;
+    margin-left: 45%;
+}

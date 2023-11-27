@@ -1,0 +1,54 @@
+.signup_container
+{
+    height:100vh;
+    background-image: url(pexels-artem-podrez-8986035.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.3); 
+    position: relative;
+    /* margin-top:10%; */
+    
+}
+.signup_box
+{
+    position: absolute;
+    top:25%;
+    height: 60vh;
+    width: 26%;
+    margin-left:820px;
+    right:10%;
+    background-color:rgba(255, 255, 255, 0.91);
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 9px;
+    padding: 5px 20px;
+    box-shadow: 10px 10px 55px 21px rgba(194,190,190,0.75);
+-webkit-box-shadow: 10px 10px 55px 21px rgba(194,190,190,0.75);
+-moz-box-shadow: 10px 10px 55px 21px rgba(194,190,190,0.75);
+    
+    
+    
+}
+.signup_box> h1{
+    color: black;
+    margin-top:42px;
+    display: flex;
+    justify-content: center;
+}
+.box1
+{
+    
+    position: relative;
+    left:50px;
+    top: 1px;
+    height:50px;
+    width: 300px;
+
+}
+.btn_sign
+{   position: relative;
+    left:24%;
+    height:30px;
+    width:200px
+}

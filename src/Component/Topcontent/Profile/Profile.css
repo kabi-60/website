@@ -1,0 +1,117 @@
+.Profile_container
+{
+    height:100vh;
+    width: 100%; 
+    /* background-color:#000;   */
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar_profile
+{
+    flex: 0.1;
+    position: absolute;
+    top:50px;
+    background-color: #fff;
+    height:93vh;
+    font-size: 22px;
+    box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+}
+
+.navbar_profilel i a {
+    display: block;
+
+  }
+ .navbar_profile ul {
+    list-style-type: none;
+            margin: 0;
+            margin-left: 12px;
+            padding: 10px;
+            width:160px;
+        background-color: #fff;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top:42px;
+    padding: 5PX 25PX;
+    letter-spacing: 1px;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    
+    color:#fff;
+    background-color: #000;
+
+  }
+  .home_container
+  {
+    height: 100vh;
+    width: 100% ;
+    background-color: #f1f1f1;
+  }
+  .Welcome_profile
+  {
+    color: #f1f1f1;
+    position: absolute;
+    right: 5%;
+    top:20%;
+    color: #000;
+  }
+  .H1{
+    color: #000;
+    position: absolute;
+    top:90%;
+    left:-15px;
+  }
+  .Welcome_profile .profile_icon{
+    /* margin-left:90px; */
+    font-size: 30px;
+    position: absolute;
+    top:-250%;
+    left:-10%;
+    
+  }
+  .Welcome_profile .profile_para
+  {
+    position: relative;
+    right: 212px;
+    top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:lighter;
+  }
+  .boxes
+  {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .boxes .box_a{
+    width: 40%  ;
+  }
+  .set1
+  {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top:-182px;
+    left: -230px;
+  }
+  .set2
+  {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top:-182px;
+    left: 290px;
+  }
+ 

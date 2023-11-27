@@ -1,0 +1,93 @@
+.servicecontainer
+{
+background-image: url(pexels-george-sultan-1409999.jpg);
+height: 180vh;
+   width: 100%;
+   margin-top: -3%;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+   
+}
+
+.servicecontainer  h1{
+    
+    padding-top:4%;
+    font-size:48px;
+    color: #fff;
+    padding-left:54px;
+    font-weight:35px;
+    font-family: 'Lato', sans-serif;
+}
+ span{
+    color: #c46210;
+}
+.servicecontainer > p{
+    font-size:28px;
+    padding-left:2%;
+    color: #fff;
+    width: 1000px;
+    margin-left:25px;
+    margin-top:2%;
+    text-justify: newspaper;
+    font-family: 'Lato', sans-serif;
+}
+.service_avaiable
+{
+    margin-top:62px;
+    padding-left: 65PX;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+    width:65%;
+}
+.service_box
+{
+    height: 240px;
+        width: 240px;
+        border-radius: 5px;
+        margin-bottom:60px;
+        margin-left: 10%;
+
+        background-color:#ffffffa0;
+        box-shadow: 10px 10px 10px -1px rgba(181, 170, 170, 0.75);
+        -webkit-box-shadow: 10px 10px 10px -1px rgba(181, 170, 170, 0.75);
+        -moz-box-shadow: 10px 10px 10px -1px rgba(181, 170, 170, 0.75);
+        display: flex;
+        justify-content: center;
+        transition: transform 200ms ease-in-out;
+}
+.service_box img:hover
+{
+    transform: scale(1.08)
+}
+.service_box img{
+    height:120px;
+    width: 120px;
+}
+img{
+     position:relative;
+    padding-right:10%; 
+
+}
+
+/* .service_box > p
+{
+    font-size: 20px;
+    color:#000 ;
+    font-weight:900;
+    position: relative;
+    bottom:-65%;
+    right:50%;
+    font-family: 'Lato', sans-serif;
+} */
+.no-decoration{
+
+    font-size: 18px;
+    color:#000 ;
+    font-weight:700;
+    position: relative;
+    bottom:-60%;
+    right:50%;
+    font-family: 'Lato', sans-serif;
+}

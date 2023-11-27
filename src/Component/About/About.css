@@ -1,0 +1,40 @@
+.about_container
+{
+    background-image: url(pexels-cottonbro-studio-4488651.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px #00000080;
+    height: 100vh;
+    width:100%;
+    overflow-y: hidden;
+}
+.about_header
+{
+    color: #fff;
+    font-size:50px;
+    position:absolute;
+    margin-top:100px;
+    margin-left:100px;
+
+    font-family: 'Lato', sans-serif;
+   
+}
+span{
+    color: #c46210;
+}
+.about_para {
+    text-align:left;
+    color:white;
+    width: 65%;
+    position: absolute;
+    margin-top: 12%;
+    font-size: 28px;
+    padding-left:20%;
+    text-justify: newspaper;
+    line-height: 200%;
+}
+.about_para ul
+{
+    list-style: none;
+}

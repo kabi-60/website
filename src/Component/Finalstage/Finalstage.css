@@ -1,0 +1,46 @@
+.final_container{
+ 
+    height:300px;
+    width: 100%;
+    background-color:#000000;
+    color: #fff;
+    overflow-y: hidden;
+}
+.final_box
+{
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr 2fr ;
+    margin-left:2%;
+}
+.final_box1{
+    margin-top:6%;
+    margin-bottom:5%;
+   
+}
+.final_box1 >h1
+{
+    font-size:26px;
+    /* font-family: 'Alata', sans-serif; */
+    
+}
+.final_box1 >p{
+    padding-top:1%;
+    font-size: 19px;
+    width:350px;
+    /* font-family: 'Crimson Pro', serif; */
+}
+.final_box1 > a{
+    color: #fff;
+    
+}
+.final_logo{
+ 
+margin-left:75%;
+
+}
+.final_logo  {
+    font-size:22px;
+    color: #fff;
+    padding:5px;
+    
+}

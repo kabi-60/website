@@ -1,0 +1,9 @@
+.container{
+   background:url(54174.jpg);
+   height: 110vh;
+   width: 100%;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+}

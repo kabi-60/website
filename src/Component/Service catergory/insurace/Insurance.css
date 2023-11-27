@@ -1,0 +1,10 @@
+.insurance_container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-nataliya-vaitkevich-6863259.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:0 0 0 2000px inset rgba(0,0,0,0.6)
+}

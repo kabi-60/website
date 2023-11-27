@@ -1,0 +1,170 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Poppins&display=swap');
+.topcontent_container
+{
+    background-color:#fff;
+    height:440px;
+    width: 370px;
+    border-radius:3px;
+    padding: 5px 20px;
+    position:absolute;
+    left: 68%;
+    bottom:20%;
+    background-color:#ffffffc9;
+    box-shadow: 15px -7px 53px 3px rgba(255,237,237,0.88);
+-webkit-box-shadow: 15px -7px 53px 3px rgba(255,237,237,0.88);
+-moz-box-shadow: 15px -7px 53px 3px rgba(255,237,237,0.88);
+overflow: hidden;
+}
+.topcontent_container > h1{
+    width:270px;
+    margin-top:4%;
+    padding-left:9px;
+    font-size:34px;
+    color:#222220;
+   font-family: 'Lato', sans-serif;
+}
+.topcontent_container > p{
+    font-size:19px;
+    color:#000;
+    margin-top:5%;
+
+}
+.option{
+    display:grid;
+    grid-template-columns:2fr;
+    margin-top:10%;
+    
+}
+.car{
+    height:40px;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:600;
+}
+input{
+    height:40px;
+    padding-left:3px;
+}
+::placeholder{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size:15px;
+}
+button
+{
+    height:40px;
+    font-size:18px;
+    font-weight: 400;
+    border: none;
+    /* border-radius:8px;    */
+    font-family: 'Poppins', sans-serif;
+    background-color: #c46210;
+    color: #fff;
+    cursor: pointer;
+}
+.topcontent_welcome
+{ 
+    /* font-family: 'Lato', sans-serif; */
+    color: #fff;
+}.topcontent_welcome>h1{
+    position: absolute;
+    margin-top:350px;
+    width: 45%;
+    margin-left:120px;
+    font-family: 'Lato', sans-serif;
+}
+.topcontent_welcome > img{
+        height: 420px;
+        width: 420px;
+        position: relative;
+        right:450px;
+        top:150px;
+}
+.sign_box
+{
+    position: absolute;
+    top:60%;
+    left:-50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+ .signbtn
+{ 
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: #c46110;
+    border: 1px solid white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left:210px;
+    text-decoration:none;
+}
+.signbtn link{
+    
+}
+
+
+.registerbtn
+{
+    height:40px;
+    width:150px;
+    margin-top: 350px;
+    margin-left:50px;
+    border-radius:8px;
+    background-color: transparent;
+    border: 3px solid white;
+    font-size:23px;
+    cursor: pointer;
+    font-family: 'Alata', sans-serif;
+    color:#c46210;
+    
+}
+.registerbtn:hover
+{
+    color:#fff;
+    border-color:; 
+}
+ .signbtn:hover
+{
+ 
+  border: 2px solid white;
+  color:rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.arrow{
+    position: relative;
+    bottom:120px ;
+    height: 120px; 
+     width: 120px;
+}
+.explore_btn
+{
+    position: relative;
+    top: 459px;
+    left:310px;
+    height:50px;
+    width:150px;
+    background-color: #c46110;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.check-btn
+{
+    background-color: #000;
+}
+.profile{
+    position: absolute;
+    top: 11%;
+    left: 95%;
+    color: #fff;
+}
+.profile i{
+    font-size:34px;
+}
+.no-decoration1
+{
+    text-decoration: none;
+    color: #fff;
+}

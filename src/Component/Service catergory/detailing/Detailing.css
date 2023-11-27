@@ -1,0 +1,9 @@
+.detail_container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-anastasia-shuraeva-8470888.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:0 0 0 2000px inset rgba(0,0,0,0.6)
+}
