@@ -27,7 +27,7 @@ const App = () => {
     <MyContext.Provider value={data}>
    
       <Header/>
-      <Finalstage/>
+0tage/>
 
     </MyContext.Provider>
   )
