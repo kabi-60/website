@@ -31,7 +31,7 @@ const LoginPage = () => {
     <div className='loginpage_container'>
        <div className='login_welcome'>
       
-      <h1>Welcome to our premier <span>Reparify</span>  website, where automotive excellence meets unrivaled<span>customercare .</span> </h1>
+      <h1>Welcome to our premier <span>Reparify</span>  website, where automotive excellence meets unrivaled<span> customercare .</span> </h1>
       <button className='btn_login'>Explore Now</button>
       </div>
       <div className='loginpage_box'>

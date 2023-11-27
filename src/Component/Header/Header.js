@@ -26,7 +26,7 @@ const Header = () => {
 
     <div className="header">
       <div className='header_left'>
-        <h1><span>Re</span>parify<i className="fa-solid fa-truck-monster"></i></h1>
+        <h1><span>Re</span>parify  <i className="fa-solid fa-truck-monster"></i></h1>
       </div>
       <div className='header_right'>
         <Link to='/'className='no-decoration'>
